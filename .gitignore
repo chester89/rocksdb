@@ -63,3 +63,9 @@ java/javadoc
 scan_build_report/
 t
 LOG
+
+#Visual Studio
+*.vcxproj*
+Debug
+*.suo
+*sdf
