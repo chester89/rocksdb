@@ -65,7 +65,17 @@ t
 LOG
 
 #Visual Studio
-*.vcxproj*
-Debug
+*.user
 *.suo
 *sdf
+
+*.obj
+*.idb
+*.pdb
+*.exp
+*.lib
+*.*log
+*.ilk
+Debug/*.exe
+Debug/*.lib
+Debug/*.dll
